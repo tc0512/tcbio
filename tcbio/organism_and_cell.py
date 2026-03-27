@@ -1,5 +1,7 @@
 import rich
-def 生物的特征() -> dict:
+import tkinter as tk
+from PIL import Image, ImageTk
+def 生物的特征():
     CHARACTERISTIC = {1: "除病毒外，生物是由细胞构成的",
         2: "生物的生活需要营养",
         3: "生物能进行呼吸",
@@ -10,3 +12,4 @@ def 生物的特征() -> dict:
     }
     print(CHARACTERISTIC)
     rich.print("[green]Tip:细胞是生物结构与功能的基本单位[/green]")
+def 单目显微镜的结构():
