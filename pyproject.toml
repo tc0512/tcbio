@@ -12,7 +12,10 @@ authors = [
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.7"
-dependencies = ["rich"]
+dependencies = [
+    "rich>1.0.0",
+    "pillow>1.0"
+]
 
 [project.urls]
 Homepage = "https://github.com/tc0512/tcbio"
