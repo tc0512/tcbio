@@ -29,6 +29,12 @@ def on_click7():
     messagebox.showinfo("7 压片夹", "固定样品")
 def on_click8():
     messagebox.showinfo("8 反光镜", "将外部光源的光线反射到显微镜的光学系统中，以照亮被观察的标本")
+def on_click9():
+    messagebox.showinfo("9 粗准焦螺旋", "快速、大幅度地升降镜筒，从而在观察时迅速找到物像的大致位置")
+def on_click10():
+    messagebox.showinfo("10 细准焦螺旋", "让物像更清晰，小范围移动镜筒")
+def on_click11():
+    messagebox.showinfo("11 底座", "支持和稳定镜身")
 def 单目显微镜的结构():
     root = tk.Tk()
     root.title("tcbio")
@@ -55,5 +61,11 @@ def 单目显微镜的结构():
     canvas.create_window(50, 150, window=button7)
     button8 = tk.Button(canvas, text="8", command=on_click8)
     canvas.create_window(100, 150, window=button8)
+    button9 = tk.Button(canvas, text="9", command=on_click9)
+    canvas.create_window(150, 150, window=button9)
+    button10 = tk.Button(canvas, text="10", command=on_click10)
+    canvas.create_window(50, 200, window=button10)
+    button11 = tk.Button(canvas, text="11", command=on_click11)
+    canvas.create_window(110, 200, window=button11)
     root.mainloop()
 单目显微镜的结构()
