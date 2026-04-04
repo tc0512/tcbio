@@ -3,7 +3,7 @@
 
 ## 安装
 ```bash
-pip install https://ghproxy.net/https://github.com/tc0512/tcbio/releases/download/v2026.3.26/nbmath-2026.3.26-py3-none-any.whl
+pip install https://ghproxy.net/https://github.com/tc0512/tcbio/releases/download/v2026.3.26/tcbio-2026.3.26-py3-none-any.whl
 ```
 
 ## 使用示例
